@@ -1,0 +1,3 @@
+== README
+
+Ruby on rails sample app using Bootstrap framework.
