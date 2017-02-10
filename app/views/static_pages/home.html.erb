@@ -3,20 +3,480 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+	<title><%= yield(:title) %> | My Portfolio</title>
 </head>
-<body>
-	<div class="center jumbotron">
-		<img alt="USC logo" src="/assets/usc.png" />
-		<h1>Welcome to the Sample App</h1>
+<body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4" >
 
-		<h2>
-			This is the home page for the 
-			<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-			sample application.
-		</h2>
+    <!--===================== H E A D E R ============================-->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in" style="visibility: hidden;">Welcome,</div>
+                <div class="intro-heading" style="visibility: hidden;">I'm Valerie Mae.</div>
+                <a href="#services" class="page-scroll btn btn-xl" style="visibility: hidden;">Proceed</a>
+            </div>
+        </div>
+    </header>
 
-		<%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
-	</div>
+    <!--===================== W H O    A M    I ============================-->
+    <section id="about" style="background-color:#f9f9f9;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Who Am I</h2>
+                    <h3 class="section-subheading text-muted">"To get something you've never had, you have to do something you've never done."</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4" style="margin-top:40px;">
+                    <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486701847/thumb_BB1FD171-1A04-4EDD-A8C2-A1D266884021_1024_agtrnk.jpg" class="img-responsive" alt="">
+               </div>
+                <div class="col-md-8">
+                    <span>
+                        <i class="glyphicon glyphicon-star-empty"></i>
+                    </span>
+                    <h4 class="service-heading">V A L E R I E</h4>
+                    <p class="text-muted">I am Valerie Mae Escarda Miranda Sy, currently taking up my<br>bachelor degree in Computer Science at the University of San Carlos. I am flexible<br>and adaptive to new environments. I don't find it difficult to adjust since I am used<br>to interacting with people most of the time.<br><br>
+                    Growing up as the youngest and the only girl among my 3 siblings is tough.<br>However, I get to gain its own edges as well. I love animals, more of a dog-person.<br>I grew up with outdoor adventures that involves nature and landscape scenery;<br>mountain climbing and camping tops the list.<br><br>
+                    The entire years of my college journey has never been a smooth<br>sailing ride for me. I stumbled for a couple of times, but I stood back up and<br>continued to pursue my dreams because that diploma will always be<br>the greatest treasure I will always be proud of.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===================== S K I L L S ============================-->
+    <section id="services" style="background-color:#fbfbfb;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Capabilities & Skills</h2>
+                    <h3 class="section-subheading text-muted">A brief evaluation of my capabilities and skills based on the technology I have used.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                <h4 class="service-heading">Software Development</h4>
+                	<div class="wraper">
+						<div class="skillst9">
+							<div class="skillbar" data-percent="90%">
+								<div class="count-bar"></div>
+								<div class="title">HTML</div>
+								<div class="count"></div>
+							</div>
+							<div class="skillbar" data-percent="80%">
+								<div class="title">CSS</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="75%">
+								<div class="title">JavaScript</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="70%">
+								<div class="title">PHP</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="50%">
+								<div class="title">Ruby on Rails</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="70%">
+								<div class="title">C</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="80%">
+								<div class="title">C#/Java</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="25%">
+								<div class="title">Go</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="85%">
+								<div class="title">mySQL</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+						</div>
+					</div>
+               </div>
+                <div class="col-md-6">
+                <h4 class="service-heading">Multimedia and OS Platforms</h4>
+                	<div class="wraper">
+						<div class="skillst9">
+							<div class="skillbar" data-percent="60%">
+								<div class="count-bar"></div>
+								<div class="title">Photoshop</div>
+								<div class="count"></div>
+							</div>
+							<div class="skillbar" data-percent="50%">
+								<div class="title">Adobe Premiere Pro</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="90%">
+								<div class="title">Mac OS</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="85%">
+								<div class="title">Linux</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+							<div class="skillbar" data-percent="95%">
+								<div class="title">Windows</div>
+								<div class="count"></div>
+								<div class="count-bar"></div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===================== P R O J E C T S ============================-->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">PROJECTS</h2>
+                    <h3 class="section-subheading text-muted">A complete list of my major projects involvement.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486595066/iamsugbo_hcmryy.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>iamSugbo</h4>
+                        <p class="text-muted">Lead Web Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486595096/jvbakeshop_login_xc8j2z.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>JV Bakeshop</h4>
+                        <p class="text-muted">Lead Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486689093/thesis_ibx2n1.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Thesis</h4>
+                        <p class="text-muted">Lead Researcher/Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486696216/coverbg2_ffwi8u.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>On-the-Job Training</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486687153/compiler_pcipik.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Compiler Design</h4>
+                        <p class="text-muted">UI Designer/Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://res.cloudinary.com/mirandasy/image/upload/v1486690361/leiss_djrfru.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>LEISS</h4>
+                        <p class="text-muted">Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===================== P R O J E C T    M O D A L S ============================-->
+    <!-- iamSugbo Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>iamSugbo</h2>
+                            <p class="item-intro text-muted">A virtual tour guide in the Queen City of the South.</p>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486595066/iamsugbo_hcmryy.png" alt="">
+                            <p>iamSugbo is an informative tourist website that brings out information of the famous tourist destinations in Cebu. <br>It is a complete tourist spot manual for Cebu's guests. iamSugbo will be your guide as you tour around the different wonders the City brings.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> June 2015</li><br>
+                                <li><strong>Date Completed:</strong> October 2015</li><br>
+                                <li><strong>Category:</strong> Web Development</li><br>
+                                <li><strong>Role:</strong> Lead Developer</li><br>
+                                <li><strong>Technology Used:</strong> PHP, JavaScript, Bootstrap framework</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JVBakeshop Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>JV Bakeshop</h2>
+                            <p class="item-intro text-muted">Established since 1980s, home of Filipino-styled baking in Cebu.</p>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486595096/jvbakeshop_login_xc8j2z.png" alt="">
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486595066/jvbakeshop_menu_s5q70x.png" alt="">
+                            <p>JV Bakeshop Point of Sale Inventory and Management System is a web application software that is responsible for the bakery's ordering system, supply and product inventory, production, and logs.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> June 2015</li><br>
+                                <li><strong>Date Completed:</strong> March 2016</li><br>
+                                <li><strong>Category:</strong> Web Development</li><br>
+                                <li><strong>Role:</strong> Lead Developer</li><br>
+                                <li><strong>Technology Used:</strong> PHP, JavaScript</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compiler Design Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Compiler Design</h2>
+                            <p class="item-intro text-muted">Developing a Multi-PC Distributed Programming Language.</p>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486687153/compiler_pcipik.png" alt="">
+                            <p>A Multi-PC Distributed Programming Language (MDL) is developed for the usage of non IT-related courses. The project aims to teach non-programmers how to create programs using the pre-defined functions provided and enables them to gain knowledge on the field. The system has a built-in web text editor and compilation error detection.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> November 2016</li><br>
+                                <li><strong>Date Completed:</strong> Ongoing Project</li><br>
+                                <li><strong>Category:</strong> Java Web Development</li><br>
+                                <li><strong>Role:</strong> User Interface Designer/Developer</li><br>
+                                <li><strong>Technology Used:</strong> Java, JSP, PHP, JavaScript, mySQL</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thesis Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Thesis</h2>
+                            <p class="item-intro text-muted">A completed research project for BS Computer Science.</p>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486689093/thesis_ibx2n1.png" alt="">
+                            <p>Twitter-based Suicide Prediction Model Using Machine Learning Approach is a research project concudcted by a team composed of 2 members. The research aimed to gather confirmed suicide related twitter accounts, to analyze the retrieved list of tweets, to build a data dictionary related to suicide tweets, and to test the created data dictionary and analyze the result.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> November 2015</li><br>
+                                <li><strong>Date Completed:</strong> January 2017</li><br>
+                                <li><strong>Category:</strong> Research Project</li><br>
+                                <li><strong>Role:</strong> Lead Researcher/Developer</li><br>
+                                <li><strong>Technology Used:</strong> Java, mySQL, XML, WEKA, twitter4J, REST API</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEISS Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>LEISS</h2>
+                            <p class="item-intro text-muted">A project developed by Team Hope.</p>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486690361/leiss_djrfru.png" alt="">
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486690718/leiss2_mcxjtr.png" alt="">
+                            <p>Laboratory Equipment Inventory Software System (LEISS) is a system created for Institute of Electronics and Communications Engineers of the Philippines. IECEP VRSC-USC is the accredited Student Chapter of the Institute of Electronics Engineers of the Philippines in the University of San Carlos, Cebu City. The system provides the necessary information to efficiently manage the equipments for each laboratory. It keeps a systematic record of the laboratory supplies to track missing, borrowed, or damaged equipments.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> June 2016</li><br>
+                                <li><strong>Date Completed:</strong> Ongoing Project</li><br>
+                                <li><strong>Category:</strong> Web Development</li><br>
+                                <li><strong>Role:</strong> Lead Developer</li><br>
+                                <li><strong>Technology Used:</strong> PHP CodeIgniter, JavaScript, Bootstrap framework</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OJT Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>OJT Projects</h2>
+                            <p class="item-intro text-muted">The different projects I am involved in during my on-the-job training last summer of 2016.</p>
+                            <h3>IEC Documentation</h3><br>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486692614/ojt2_mi4sop.png" alt="">
+                            <p>The 51st International Eucharistic Congress web documentation project is a digital DVD version of the IEC Commemorative book launched on the 28th of May 2016. The DVD contains all the speeches, talks and photos of the IEC sessions and events held last January 24-31, 2016.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> April 2016</li><br>
+                                <li><strong>Date Completed:</strong> May 2016</li><br>
+                                <li><strong>Category:</strong> Web Development</li><br>
+                                <li><strong>Role:</strong> Developer/DVD Organizer</li><br>
+                                <li><strong>Technology Used:</strong> HTML</li>
+                            </ul><br>
+                            <h3>SILP MIS</h3><br>
+                            <img class="img-responsive" src="https://res.cloudinary.com/mirandasy/image/upload/v1486696484/ojt_lazvj5.png" alt="">
+                            <p>SILP Management Information System is a system developed for San Isidro Labrador Parish in Talamban, Cebu City. The system conatins records of all residents in Talamban. It provides an easy access on their church documents such as baptismal, confirmation, marriage, and death certificates. An admin portal handles all the new and updated records.</p>
+                            <ul class="list-inline">
+                                <li><strong>Date Started:</strong> April 2016</li><br>
+                                <li><strong>Date Completed:</strong> Turned over</li><br>
+                                <li><strong>Category:</strong> Web Development</li><br>
+                                <li><strong>Role:</strong> Lead UI Desinger/Developer</li><br>
+                                <li><strong>Technology Used:</strong> Java, JSP, SpringMVC Framework</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===================== C O N T A C T    M E ============================-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Me</h2>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="row">
+			    			<div class="col-md-12" style="text-align: center;">
+			    			<p class="groove">
+								<a href="https://www.facebook.com/vmxms" target="_blank"><i class="fa fa-facebook" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="https://twitter.com/vmxms" target="_blank"><i class="fa fa-twitter" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="http://oeuvresilhouette.tumblr.com" target="_blank"><i class="fa fa-tumblr" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="https://www.pinterest.com/vmxms/" target="_blank"><i class="fa fa-pinterest-p" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="https://www.linkedin.com/in/valerie-mae-miranda-sy-b43450134/" target="_blank"><i class="fa fa-linkedin" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="mailto:valeriemirandasy@gmail.com?Subject=Questions%20and%20Inquiry" target="_top"><i class="fa fa-envelope" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="https://github.com/valeriemirandasy" target="_blank"><i class="fa fa-github" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="https://bitbucket.org/valeriemirandasy/" target="_blank"><i class="fa fa-bitbucket" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;margin-right:20px;"></i></a>
+								<a href="https://trello.com/valeriemirandasy" target="_blank"><i class="fa fa-trello" style="font-size:40px;color:#737373;text-shadow:2px 2px 4px #000000;"></i></a>
+							</p></div>
+				    		<div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

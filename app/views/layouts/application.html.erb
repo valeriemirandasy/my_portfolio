@@ -1,26 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Portfolio</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<title>VM | Portfolio</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href='https://rawgit.com/valeriemirandasy/css/master/css/jquery-ui.css'>
+	<link rel="stylesheet" href='https://rawgit.com/valeriemirandasy/css/master/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="https://rawgit.com/valeriemirandasy/css/master/css/skill.css">
+	<link rel="stylesheet" href="https://rawgit.com/valeriemirandasy/css/master/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="images/ico/favicon.png">
+	<link href="images/ico/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="images/ico/favicon.ico" rel="icon" type="image/x-icon">
 </head>
-<body>
-	<header class="navbar navbar-fixed-top navbar-inverse">
-		<div class="container">
-			<%= link_to "sample app", '#', id: "logo" %>
-			<nav>
-				<ul class="nav navbar-nav navbar-right">
-					<li><%= link_to "Home", '#' %></li>
-					<li><%= link_to "Help", '#' %></li>
-					<li><%= link_to "Login", '#' %></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<div class="container">
-		<%= yield %> 
-	</div>
-</body>
+
+  <body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4" >
+    
+    <!--===================== N A V    B A R ============================-->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink" style="background-color: white; opacity: 0.9">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="https://res.cloudinary.com/mirandasy/image/upload/v1484541698/logo_1_htwmvq.png" style="width:78px;height:78px;margin:auto;" class="img-responsive" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#about">Who Am I</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">Skills</a>
+                    </li>                    
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+	<%= yield %> 
+
+	<!--===================== J A V A S C R I P T    G I T H U B    L I N K S ============================-->
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/bootstrap.min.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jqBootstrapValidation.js"></script>
+    <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/contact_me.js"></script>
+    <script src="https://rawgit.com/valeriemirandasy/css/master/js/jquery.easing.min.js"></script>
+    <script src='https://rawgit.com/valeriemirandasy/css/master/js/jquery.min.js'></script>
+	<script src='https://rawgit.com/valeriemirandasy/css/master/js/jquery-ui.min.js'></script>
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+	<script src='https://rawgit.com/valeriemirandasy/css/master/js/custom.js'></script>
+	<script src='https://rawgit.com/valeriemirandasy/css/master/js/index.js'></script>
+	<script src='https://rawgit.com/valeriemirandasy/css/master/js/jquery.appear.js'></script>
+  </body>
 </html>
